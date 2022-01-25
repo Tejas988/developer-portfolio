@@ -22,7 +22,7 @@ export default function Home({ githubProfileData }) {
 					title: "Tejas Ghone",
 					description:
 						"A passionate Full Stack Web Developer and Mobile App Developer.",
-					image: {process.env.NEXT_PUBLIC_BASE_PATH+"/img/icons/common/self.jpg"},
+					image: process.env.NEXT_PUBLIC_BASE_PATH +"/img/icons/common/self.jpg",
 					keywords: [
 						"tejas",
 						"Tejas Ghone",
