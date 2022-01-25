@@ -7,7 +7,8 @@ function SEO({ data }) {
 		<Head>
 			<title>{data.title}</title>
 			<meta name="title" content={data.title} />
-			<meta name="author" content="Hanzla Tauqeer" />
+			<meta name="google-site-verification" content="dQ69mX2dFFE5f8Zr2bIrJUJ8WHtdhlVBUGucYtYJapU" />
+			<meta name="author" content="Tejas Ghone" />
 			<meta name="description" content={data.description} />
 			<meta name="keywords" content={data.keywords.join(", ")} />
 			<link rel="canonical" href={data.url} />
