@@ -5,6 +5,7 @@ import DisplayLottie from "../components/DisplayLottie";
 import { Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
 import { skillsSection } from "../portfolio";
+const prefix=process.env.NEXT_PUBLIC_BASE_PATH||"";
 
 const Skills = () => {
 	return (
@@ -14,7 +15,7 @@ const Skills = () => {
 				<p className="lead">{skillsSection.subTitle}</p>
 				<Row>
 					<Col lg="6">
-						<DisplayLottie animationPath="/lottie/webdev.json" />
+						<DisplayLottie animationPath= {prefix+"/lottie/webdev.json"} />
 					</Col>
 					<Col lg="6">
 						<div className="d-flex justify-content-center flex-wrap mb-5">
