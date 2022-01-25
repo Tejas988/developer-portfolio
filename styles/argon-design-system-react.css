@@ -15,9 +15,10 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
+
 @font-face {
 	font-family: Augestina;
-	src: url('/fonts/Agustina.otf');
+	src: url('tejasghone-portfolio/fonts/Agustina.otf');
 }
 
 #nav-title {
