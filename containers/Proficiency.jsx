@@ -3,7 +3,6 @@ import { SkillBars } from "../portfolio";
 import { Container, Row, Progress, Col } from "reactstrap";
 
 import { Fade } from "react-reveal";
-import Image from "next/image";
 import { socialLinks } from "../portfolio";
 
 
@@ -31,7 +30,7 @@ const Proficiency = () => {
 						<div className="d-flex p-1">
 						<div>
 							<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-gr">
-								<Image
+								<img
 									src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png"
 									width={"100px"}
 									height={"100px"}
@@ -46,7 +45,7 @@ const Proficiency = () => {
 						<div className="d-flex p-1">
 						<div>
 							<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-gr">
-								<Image
+								<img
 									src="https://avatars1.githubusercontent.com/u/11960354?s=460&v=4"
 									width={"100px"}
 									height={"100px"}
@@ -61,7 +60,7 @@ const Proficiency = () => {
 						<div className="d-flex p-1">
 						<div>
 							<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-gr">
-							<Image
+							<img
 								src="https://play-lh.googleusercontent.com/-9azrA7GgyNpNVfHRI5xLhRyy4OuqevecUAjUFFfpJccTGHkdd4oXYfw11Z5-jxlDRM"
 								width={"100px"}
 								height={"100px"}
@@ -76,7 +75,7 @@ const Proficiency = () => {
 						<div className="d-flex p-1">
 						<div>
 							<div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-gr">
-							<Image
+							<img
 								src="https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png"
 								width={"100px"}
 								height={"100px"}
