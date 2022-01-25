@@ -28,10 +28,10 @@ jobs:
     - run: yarn
     - run: yarn build
       env:
-        NEXT_PUBLIC_BASE_PATH: /developer-portfolio
+        NEXT_PUBLIC_BASE_PATH: /tejasghone-portfolio
     - run: yarn export
       env:
-        NEXT_PUBLIC_BASE_PATH: /developer-portfolio
+        NEXT_PUBLIC_BASE_PATH: /tejasghone-portfolio
     - run: yarn export
     - run: touch ./out/.nojekyll
     
