@@ -23,7 +23,7 @@ const ExperienceCard = ({ data }) => {
 					style={{ flex: 1 ,minHeight:'700px'}}
 					className="shadow-lg--hover shadow border-0 text-center rounded"
 				>
-					<Color src={data.companylogo} format="hex">
+					<Color src={process.env.NEXT_PUBLIC_BASE_PATH + data.companylogo} format="hex">
 						{(color) => (
 							<CardHeader style={{ background: color.data }}>
 								<h5 className="text-white">{data.company}</h5>
@@ -36,7 +36,7 @@ const ExperienceCard = ({ data }) => {
 							
 						>
 							<Image
-								src={data.companylogo}
+								src={process.env.NEXT_PUBLIC_BASE_PATH + data.companylogo}
 								width={"160px"}
 								height={"80px"}
 								alt={data.companylogo}
