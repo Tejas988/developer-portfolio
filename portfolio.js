@@ -174,7 +174,7 @@ export const experience = [
 	{
 		role: "Technology Analyst Intern",
 		company: "JioSaavn",
-		companylogo: "/saavnLogo.png",
+		companylogo: "/img/icons/common/saavnLogo.png",
 		date: "June 2021 – August 2021",
 		desc: "Worked on Saavn Intellect , an advertisement management platform , where AD campaigns run on JioSaavn app are created and managed along with analysis of user and product data",
 		descBullets: [
@@ -185,7 +185,7 @@ export const experience = [
 	{
 		role: "MERN Stack Developer Intern",
 		company: "Humaps Pvt.ltd",
-		companylogo: "/humps.jpg",
+		companylogo:  "/img/icons/common/humps.jpg",
 		date: "Jan 2021 – March 2021",
 		desc: "Worked with full stack development team for creating a Report Framework , a framework which can be used to generate , schedule, deliver runtime reports in an organization",
 		descBullets: [
