@@ -19,19 +19,18 @@ export default function Home({ githubProfileData }) {
 		<div>
 			<SEO
 				data={{
-					title: "Hanzla Tauqeer",
+					title: "Tejas Ghone",
 					description:
 						"A passionate Full Stack Web Developer and Mobile App Developer.",
 					image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-					url: "https://developer-portfolio-1hanzla100.vercel.app",
 					keywords: [
-						"Hanzla",
-						"Hanzla Tauqeer",
-						"@1hanzla100",
-						"1hanzla100",
+						"tejas",
+						"Tejas Ghone",
+						"@1tejas100",
+						"1tejas100",
 						"Portfolio",
-						"Hanzla Portfolio ",
-						"Hanzla Tauqeer Portfolio",
+						"tejas Portfolio ",
+						"Tejas Ghone Portfolio",
 						"web developer",
 						"full stack",
 						"full stack web developer",
@@ -52,11 +51,11 @@ export default function Home({ githubProfileData }) {
 			<Navigation />
 			<Greetings />
 			<Skills />
-			<Proficiency />
 			<Education />
 			<Experience />
-			<Feedbacks />
+			<Proficiency />
 			<Projects />
+			<Feedbacks />
 			<GithubProfileCard prof={githubProfileData} />
 		</div>
 	);
@@ -68,7 +67,7 @@ Home.prototype = {
 
 export async function getStaticProps(_) {
 	const githubProfileData = await fetch(
-		`https://api.github.com/users/${openSource.githubUserName}`
+		`https://api.github.com/users/Tejas988`
 	).then((res) => res.json());
 
 	return {

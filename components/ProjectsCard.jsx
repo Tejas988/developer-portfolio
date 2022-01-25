@@ -1,3 +1,4 @@
+
 import React from "react";
 
 import { Card, CardBody, Col, Button } from "reactstrap";
@@ -8,12 +9,23 @@ const ProjectsCard = ({ data }) => {
 	return (
 		<Col lg="6">
 			<Fade left duration={1000} distance="40px">
-				<Card className="shadow-lg--hover shadow mt-4">
+				<Card className="shadow-lg--hover shadow mt-4 " style={{minHeight:'400px'}}>
 					<CardBody>
-						<div className="d-flex px-3">
-							<div className="pl-4">
+						<div className="d-flex px-2">
+							<div className="pl-3">
 								<h3>{data.name}</h3>
-								<p className="description mt-3">{data.desc}</p>
+								{data.stacks?.map((stack, index) => (
+									<span key={index} className="badge badge-pill badge-secondary mr-2" style={{textTransform: "none"}}>
+										{stack}
+									</span>
+								))}
+								<div className="description mt-3" style={{color:"gray"}}>{data.desc}
+								<ul style={{listStyleType: "square", marginLeft: -10}}>
+									{data.descBullets?.map((bullet, index) => (
+										<li key={index}>{bullet}</li>
+									))}
+								</ul>
+								</div>
 								{data.github ? (
 									<Button
 										className="btn-icon"

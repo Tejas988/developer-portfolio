@@ -30,7 +30,7 @@ const Greetings = () => {
 						<div className="col px-0">
 							<Row>
 								<Col lg="6">
-									<h1 className="display-3 text-white">
+									<h1 className="display-1 text-white leaveline">
 										{greetings.title + " "}
 									</h1>
 									<p className="lead text-white">
@@ -41,6 +41,7 @@ const Greetings = () => {
 										<Button
 											className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
 											color="default"
+											target="_blank"
 											href={greetings.resumeLink}
 										>
 											<span className="btn-inner--icon mr-1">

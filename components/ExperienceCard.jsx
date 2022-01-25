@@ -20,7 +20,7 @@ const ExperienceCard = ({ data }) => {
 		<Col lg="4">
 			<Fade left duration={1000} distance="40px">
 				<Card
-					style={{ flex: 1 }}
+					style={{ flex: 1 ,minHeight:'700px'}}
 					className="shadow-lg--hover shadow border-0 text-center rounded"
 				>
 					<Color src={data.companylogo} format="hex">
@@ -32,16 +32,17 @@ const ExperienceCard = ({ data }) => {
 					</Color>
 					<CardBody className="py-5">
 						<div
-							className="bg-white rounded-circle mb-3 img-center img-fluid shadow-lg "
-							style={{ width: "100px", height: "100px" }}
+							
+							
 						>
 							<Image
 								src={data.companylogo}
-								width={"100px"}
-								height={"100px"}
+								width={"160px"}
+								height={"80px"}
 								alt={data.companylogo}
 							/>
 						</div>
+						<br/>
 						<CardTitle tag="h5">{data.role}</CardTitle>
 						<CardSubtitle>{data.date}</CardSubtitle>
 						<CardText className="description my-3 text-left">
