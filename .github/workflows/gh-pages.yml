@@ -28,11 +28,11 @@ jobs:
     - run: yarn
     - run: yarn build
       env:
-       
+        NEXT_PUBLIC_BASE_PATH: /tejasghone-portfolio
         NEXT_IMAGE_ALLOWED_DOMAINS: cdn.sanity.io
     - run: yarn export
       env:
-       
+        NEXT_PUBLIC_BASE_PATH: /tejasghone-portfolio
         NEXT_IMAGE_ALLOWED_DOMAINS: cdn.sanity.io
     - run: yarn export
     - run: touch ./out/.nojekyll
