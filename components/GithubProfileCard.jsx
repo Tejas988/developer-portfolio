@@ -13,7 +13,7 @@ const GithubProfileCard = ({ prof }) => {
 					<Row className="">
 						<Col className="order-lg-2" lg="4">
 							<img
-								src={process.env.NEXT_PUBLIC_BASE_PATH +"/img/icons/common/self.jpg"}
+								src={process.env.NEXT_PUBLIC_BASE_PATH +"/img/icons/pf.jpg"}
 								style={{ width: "200px" }}
 								alt=""
 								className="rounded-circle img-center img-fluid shadow shadow-lg--hover mb-4"
