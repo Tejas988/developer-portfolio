@@ -206,7 +206,7 @@ export const projects = [
 			"Project accepted in IEEE 2022 7th I2CT,Pune,Maharashtra,India. Paper ID - 223"
 		],
 		link: "https://yjdoc2.github.io/Network-Simulator/",
-		github: "https://github.com/YatharthVyas/Network-Simulator",
+		github: "https://github.com/Tejas988/Network-Simulator",
 
 	}, 
 	{
@@ -238,7 +238,7 @@ export const projects = [
 			"Runs without any backend/server and is completely client-side with zero hosting and maintainance required.",
 		],
 		link: "https://yjdoc2.github.io/8086-emulator-web/",
-		github: "https://github.com/YatharthVyas/8086-emulator-web-1",
+		github: "https://github.com/Tejas988/8086-emulator-web",
 	},
 	{
 		name: "Inventory Management",
@@ -267,11 +267,6 @@ export const research = [
 		name: "Simple Network Simulator",
 		feedback:
 			"This paper has been accepted by 'IEEE 2022 7th International Conference for Convergence in Technology (I2CT), Pune' which has Ei Compendex and Scopus Indexing. It is about the implementation of a fully customizable network simulator that can be programmed using Javascript and JSON. It is designed to help researchers and professors in teaching concepts of Networks and Cyber Security with animated packet transfer",
-	},
-	{
-		name: "Simulation of a Distributed Architecture on a Single System using Nodes emulated by Docker containers:",
-		feedback:
-		"I'm a part of a group researching the simulation of a multi-node system using Linux’s namespaces through containers using Docker. Results obtained proved an optimization from 98 seconds on a single node to 45 seconds in a simulated multi-node configuration. The paper for the same is currently under work"
 	},
 	{
 		name: "Emulating Intel's 8086 Microprocessor using Rust and WASM",
