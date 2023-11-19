@@ -38,7 +38,7 @@ const ExperienceCard = ({ data }) => {
 							<img
 								src={process.env.NEXT_PUBLIC_BASE_PATH + data.companylogo}
 								width={"160px"}
-								height={"160px"}
+								height={"100px"}
 								alt={data.companylogo}
 							/>
 						</div>
