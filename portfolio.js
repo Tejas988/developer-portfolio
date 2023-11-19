@@ -129,11 +129,11 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "90",
 	},
 ];
 
@@ -143,9 +143,9 @@ export const educationInfo = [
 		schoolName: "Dwarkadas J. Sanghvi College of Engineering",
 		subHeader: "Bachelor of Engineering in Computer Science",
 		duration: "July 2018 - June 2022",
-		desc: "Worked on multiple projects in core computer science domain and published 2 papers.",
+		desc: "Worked on multiple projects in core computer science domain and published 2 papers and 1 patent.",
 		descBullets: [
-			"9.82 of 10.00 GPA upto 7th Semester",
+			"9.80 of 10.00 GPA",
 			"Mentor at DJ Unicode 2020-21",
 			"Co-Infotech Head DJ ACM 2019-20"
 		],
@@ -155,7 +155,7 @@ export const educationInfo = [
 		subHeader: "Higher Secondary School (HSC)",
 		duration: "August 2016 - May 2018",
 		descBullets: [
-			"81% Overall",
+			"82% Overall",
 			"Specialization in Computer Science"
 		],
 	},
@@ -172,25 +172,37 @@ export const educationInfo = [
 
 export const experience = [
 	{
+		role: "Software Engineer",
+		company: "JP Morgan Chase & Co.",
+		companylogo: "/img/icons/common/jpmc.jpg",
+		date: "July 2022 – Current",
+		desc: "Working as part of Payments and Trade Team in Supply Chain Finance",
+		descBullets: [
+			"Contributing in tech stream for Supplier Onboarding portal",
+			"Part of key infrastructure migrations and tech upgrades",
+			"Proactively developed key features aligned with business needs, consistently achieving defect-free task completion ahead of deadlines",
+		],
+	},
+	{
+		role: "Software Engineer Intern",
+		company: "X80 Security",
+		companylogo:  "/img/icons/common/X80-white.jpg",
+		date: "Jan 2022 – Jun 2022",
+		desc: "Worked on full stack development on multiple projects. Explored and utilised various Cloud technologies",
+		descBullets: [
+			"Led the development of a security dashboard from its inception, delving into Cloud Computing to engineer a graph tool that simplified complex cloud data into clear network graphs, offering a streamlined perspective on security insights.",
+			"Developed Flask APIs and honed expertise in the Neo4j database, contributing significantly to backend development."
+		],
+	},
+	{
 		role: "Technology Analyst Intern",
 		company: "JioSaavn",
 		companylogo: "/img/icons/common/saavnLogo.png",
 		date: "June 2021 – August 2021",
 		desc: "Worked on Saavn Intellect , an advertisement management platform , where AD campaigns run on JioSaavn app are created and managed along with analysis of user and product data",
 		descBullets: [
-			"Developed the frontend in React.js and successfully deployed  functional version on production focusing on design, testing  and scalability",
+			"Developed the frontend in React.js and successfully deployed functional version on production focusing on design, testing  and scalability",
 			"Wrote flexible code and gained experience on Agile Software delivery",
-		],
-	},
-	{
-		role: "MERN Stack Developer Intern",
-		company: "Humaps Pvt.ltd",
-		companylogo:  "/img/icons/common/humps.jpg",
-		date: "Jan 2021 – March 2021",
-		desc: "Worked with full stack development team for creating a Report Framework , a framework which can be used to generate , schedule, deliver runtime reports in an organization",
-		descBullets: [
-			"Documented ,designed and implementing solutions for the Report framework in frontend and backend",
-			"Imporved responsivness of frontend by implementing preprocessing of data using web workers"
 		],
 	}
 ];
@@ -217,16 +229,14 @@ export const projects = [
 			"Designed the schema and implemented the logic for assignment and lecture scheduling using cron jobs in backend along with other apis focusing on mvc architecture ",
 			"Contributed in frontend by designing and developing components in react.js and react native"
 		],
-		github: "https://github.com/Tejas988/LOC3.0_The_Classicals_Backend",
+		github: "https://github.com/Tejas988/Tuition",
 	},
 	{
 		name: "Infant Emotion Detection using Audio Vistual stream",
 		stacks: ["Python", "Tensorflow", "Keras", "OpenCV", "CVZone", "Transfer Learning"],
 		descBullets: [
-			"A multi-modal CNN to predict emotions of infants based on audio characteristics of their cry and a video stream",
-			"MFCC is used to extract audio frequencies and is then fed into an ANN.",
-			"Images are sampled from a video at 6 frames per second, augmented to increase dataset size and then used to train an ensemble of 6 Convoluted Neural Networks.",
-			"A total of 5 unique datasets collected from researchers have been combined for training and testing."
+			"Developed a machine learning and computer vision-based hardware system to predict infant emotions from audio-visual streams, using Raspberry Pi 4 for ML processing with integrated microphone and camera for inputs.",
+			"Successfully achieved consistent performance across diverse ethnicities, overcoming a key limitation in prior research, culminating in a patent publication",
 		],
 	},
 	{
@@ -271,12 +281,12 @@ export const research = [
 	{
 		name: "Emulating Intel's 8086 Microprocessor using Rust and WASM",
 		feedback:
-		"This study presents various advantages of emulating an 8086 microprocessor using Rust and WASM and describes the technology and architecture involved behind one. The paper is currently under review."
+		"This study presents various advantages of emulating an 8086 microprocessor using Rust and WASM and describes the technology and architecture involved behind one. Paper accepted in 2022 3rd International Conference for Emerging Technology (INCET)."
 	},
 	{
-		name: "Infant Emotion Detection using a live audio-visual stream",
+		name: "Infant Emotion Recognition using Audio-Visual Stream",
 		feedback:
-		"Currently Ongoing: We are working on a research project to detect emotions of infants. It involves gathering and merging several unique datasets followed by a meticulous process of analysis and interpretation involved due to the sensitive nature of the data."
+		"A machine learning and computer vision-based hardware system to predict infant emotions from audio-visual stream. Published Patent (Application Id: 202221046321)"
 	}
 ];
 
