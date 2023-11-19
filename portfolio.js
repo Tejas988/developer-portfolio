@@ -186,7 +186,7 @@ export const experience = [
 	{
 		role: "Software Engineer Intern",
 		company: "X80 Security",
-		companylogo:  "/img/icons/common/X80-white.jpg",
+		companylogo:  "/img/icons/common/x80.png",
 		date: "Jan 2022 – Jun 2022",
 		desc: "Worked on full stack development on multiple projects. Explored and utilised various Cloud technologies",
 		descBullets: [
