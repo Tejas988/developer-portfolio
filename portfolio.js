@@ -143,7 +143,7 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		weight: 1,
+		weight: 2,
 		schoolName: "Georgia Institute of Technology",
 		subHeader: "Masters in Computer Science",
 		duration: "Aug 2024 - May 2025",
