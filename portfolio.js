@@ -135,12 +135,26 @@ export const SkillBars = [
 		Stack: "Programming",
 		progressPercentage: "90",
 	},
+	{
+		Stack: "Cloud", //Insert stack or technology you have experience in
+		progressPercentage: "90", //Insert relative proficiency in percentage
+	},
 ];
 
 export const educationInfo = [
 	{
 		weight: 1,
-		schoolName: "Dwarkadas J. Sanghvi College of Engineering",
+		schoolName: "Georgia Institute of Technology",
+		subHeader: "Masters in Computer Science",
+		duration: "Aug 2024 - May 2025",
+		desc: "Specializing in Computing Systems",
+		descBullets: [
+			"4/4 GPA",
+		],
+	},
+	{
+		weight: 2,
+		schoolName: "University of Mumbai",
 		subHeader: "Bachelor of Engineering in Computer Science",
 		duration: "July 2018 - June 2022",
 		desc: "Worked on multiple projects in core computer science domain and published 2 papers and 1 patent.",
@@ -149,25 +163,7 @@ export const educationInfo = [
 			"Mentor at DJ Unicode 2020-21",
 			"Co-Infotech Head DJ ACM 2019-20"
 		],
-	},
-	{
-		schoolName: "Nirmala Memorial Foundation College of Science & Arts",
-		subHeader: "Higher Secondary School (HSC)",
-		duration: "August 2016 - May 2018",
-		descBullets: [
-			"82% Overall",
-			"Specialization in Computer Science"
-		],
-	},
-	{
-		schoolName: "St Francis D'Assisi High School",
-		subHeader: "Secondary School Certificate (SSC)",
-		duration: "Till April 2016",
-		desc: "Ranked among top 10% in the school.",
-		descBullets: [
-			"92.80% Overall",
-		],
-	},
+	}
 ];
 
 export const experience = [
@@ -175,7 +171,7 @@ export const experience = [
 		role: "Software Engineer",
 		company: "JP Morgan Chase & Co.",
 		companylogo: "/img/icons/common/jpmc.jpg",
-		date: "July 2022 – Current",
+		date: "July 2022 – July 2024",
 		desc: "Working as part of Payments and Trade Team in Supply Chain Finance",
 		descBullets: [
 			"Contributing in tech stream for Supplier Onboarding portal",
