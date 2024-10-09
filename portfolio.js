@@ -146,10 +146,11 @@ export const educationInfo = [
 		weight: 2,
 		schoolName: "Georgia Institute of Technology",
 		subHeader: "Masters in Computer Science",
-		duration: "Aug 2024 - May 2025",
+		duration: "Aug 2024 - May 2026",
 		desc: "Specializing in Computing Systems",
 		descBullets: [
 			"4/4 GPA",
+			"Fall 2024 : Graduate Algorithms, Advanced Computer Networks, Data Visualisation Principles"
 		],
 	},
 	{
